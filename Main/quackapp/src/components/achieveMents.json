@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "title": "Newbie",
+    "body": "Successfully killed 100 enemies in a single game"
+  },
+
+  {
+    "id": 2,
+    "title": "Beginner",
+    "body": "Successfuly killed 250 enemies in a single game"
+  },
+
+  {
+    "id": 3,
+    "title": "Getting there",
+    "body": "Successfully killed 500 enemies in a single game"
+  },
+
+  {
+    "id": 4,
+    "title": "Intermediate",
+    "body": "Successfully killed 1000 enemies in a single game"
+  },
+
+  {
+    "id": 5,
+    "title": "Advanced",
+    "body": "Successfully killed 2000 enemies in a single game"
+  },
+
+  {
+    "id": 6,
+    "title": "You tried",
+    "body": "Scored 500 points and above"
+  },
+
+  {
+    "id": 7,
+    "title": "I see you",
+    "body": "Scored 1000 points and above"
+  },
+
+  {
+    "id": 8,
+    "title": "Quacker Killer",
+    "body": "Scored 2000 points and above"
+  },
+
+  {
+    "id": 9,
+    "title": "Holy Quacks",
+    "body": "Scored 4000 points and above"
+  },
+
+  {
+    "id": 10,
+    "title": "Quack Power Up",
+    "body": "Used a power-up more than 3 times in a single game"
+  }
+]

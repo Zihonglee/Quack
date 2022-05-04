@@ -1,0 +1,34 @@
+body {
+  background-color: #fafafa;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(126, 122, 11, 0.5), transparent),
+    url(../imgs/ducks.jpg) repeat bottom;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.achievementSection {
+  background-color: #fff;
+  box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.1),
+    0px 2px 4px rgba(60, 60, 60, 0.1);
+  border-radius: 4px;
+  padding: 40px;
+  margin: 20px 0;
+}
+
+.title {
+  margin: 0;
+}
+
+h2 {
+  color: rgb(199, 201, 70);
+  margin: 20px 0;
+}
+
+p {
+  color: rgb(235, 235, 235);
+  margin: 20px 0;
+}

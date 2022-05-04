@@ -1,0 +1,187 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  overflow-y: hidden;
+}
+.forgot,
+.LogIn,
+.logOutButton,
+.signUp {
+  color: khaki;
+  text-align: center;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  padding: 10rem;
+  height: 100vh;
+  background: linear-gradient(rgba(126, 122, 11, 0.5), transparent),
+    url(../imgs/ducks.jpg) repeat bottom;
+}
+fieldset {
+  border-radius: 2rem;
+  margin: 0rem 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.705), transparent);
+  border: none;
+}
+label {
+  color: black;
+  padding: 2rem;
+}
+button {
+  margin: 1rem;
+  width: 17rem;
+  border-radius: 2rem;
+  background: linear-gradient(rgba(237, 245, 15, 0.705), transparent);
+  color: rgb(90, 81, 10);
+}
+input {
+  margin: 0.5rem;
+  border-radius: 2rem;
+}
+.logOutButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+legend {
+  color: rgb(234, 233, 236);
+}
+p,
+a {
+  color: white;
+}
+h1 {
+  color: black;
+}
+.friends {
+  color: black;
+}
+.friendList {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background: linear-gradient(rgba(173, 249, 8, 0.705), transparent);
+  border-radius: 1rem;
+  margin: 2rem 2rem 0rem 0rem;
+  padding: 1rem;
+}
+.AddedFriend {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: linear-gradient(rgba(173, 249, 8, 0.705), transparent);
+  border-radius: 1rem;
+  margin: 2rem 0rem 0rem 2rem;
+  padding: 1rem;
+  color: black;
+}
+.Add,
+.Remove {
+  margin: 0rem 1rem;
+}
+.Add:hover,
+.Remove:hover {
+  border: solid black;
+  border-radius: 1rem;
+  width: 4rem;
+  cursor: pointer;
+  background-color: grey;
+}
+.hidden {
+  visibility: hidden;
+}
+.lobby {
+  height: 100vh;
+  background: linear-gradient(rgba(126, 122, 11, 0.5), transparent),
+    url(../imgs/ducks.jpg) repeat bottom;
+  overflow-y: hidden;
+}
+
+.container-duck {
+  position: relative;
+  width: 20rem;
+  height: 2rem;
+  background-color: rgb(52, 34, 0, 0.5);
+  margin: 0 auto;
+}
+
+.container-duck h1 {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  color: #ffc700;
+}
+
+.startButton {
+  z-index: 2;
+  margin: 0;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(75, 49, 0);
+  color: rgb(199, 201, 70);
+}
+
+.startButton:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.startButton:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #fae81f;
+}
+
+.startButton:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.duck {
+  transition: 0.5s all ease-in-out;
+  left: 8rem;
+  position: absolute;
+}
+
+.duck:hover {
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  transition: 0.5s all ease-in-out;
+}
+
+.duck2 {
+  transition: 0.5s all ease-in-out;
+  position: absolute;
+  right: 8rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.duck2:hover {
+  transform: rotate(-30deg);
+  animation-direction: reverse;
+  transition: 0.5s all ease-in-out;
+}
+.container-duck {
+  padding: 35vh;
+  margin-top: 4rem;
+}
